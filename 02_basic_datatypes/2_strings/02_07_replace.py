@@ -8,3 +8,9 @@ Result: #ore python progra##ing please
 
 '''
 
+sentence = input("type a sentence: ")
+symbol = input("now type a symbol: ").strip()
+
+first_letter = sentence[0]
+
+print (sentence.replace(first_letter, symbol))

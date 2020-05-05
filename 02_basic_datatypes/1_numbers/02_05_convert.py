@@ -10,3 +10,14 @@ Demonstrate how to:
     Take note of what information is lost when some conversions take place.
 
 '''
+
+A = 5
+
+B = float(A)
+
+print (A / B)
+
+C = input ("type a number: ")
+D = input ("and another: ")
+
+print(f'{C} x {D} is {int(C)*int(D)}')
