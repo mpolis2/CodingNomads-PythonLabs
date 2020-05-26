@@ -17,3 +17,8 @@ Another example: if input is 3, you will output
 Hint: Think of nested for loops
 
 '''
+
+size = int(input("type a size for the tree: "))
+
+for row in range(size+1):
+    print('*' * row)

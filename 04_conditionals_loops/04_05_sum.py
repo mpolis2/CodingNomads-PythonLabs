@@ -7,3 +7,12 @@ The output of your calculation should therefore look like this:
 
 The sum is: 5050
 '''
+
+print("type the start and end of the range")
+start = int(input("start: "))
+end = int(input("end: "))
+total = 0
+for i in range (start, end + 1):
+    total += i
+
+print(f'the total is {total}')
